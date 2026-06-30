@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import  { PlayIcon } from "@heroicons/react/16/solid";
-import HomeImage from "../../assets/Home.png";
+import HomeImage from "../../assets/home.png";
 
 import Drag  from "./Drag";
 
