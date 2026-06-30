@@ -1,9 +1,7 @@
-import { frame, motion, useSpring } from "framer-motion";
+import { motion } from "framer-motion";
 import  { PlayIcon } from "@heroicons/react/16/solid";
 import HomeImage from "../../assets/Home.png";
-import { useEffect, useRef, useState, type RefObject } from "react";
 
-import Plane from "../../assets/plane.png";
 import Drag  from "./Drag";
 
 

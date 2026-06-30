@@ -1,4 +1,4 @@
-import { div } from "framer-motion/client";
+
 import footerLinks from "../../utils/FooterLinks";
 import socialIcon from "../../utils/SocialIcons";
 import storeBadgeImgs from "../../utils/StoreBadgeImgs";

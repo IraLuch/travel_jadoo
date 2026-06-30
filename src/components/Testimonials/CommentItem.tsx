@@ -1,11 +1,10 @@
-import { motion } from "framer-motion";
+
 import type { TestimonialItem } from "../../types/TestimonialItem";
-import { useState } from "react";
 
 type CommentProps = TestimonialItem & { isActive: boolean; isNext: boolean };
 
 const CommentItem = ({
-  id,
+  
   name,
   location,
   avatar,

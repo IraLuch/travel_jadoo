@@ -24,14 +24,9 @@ const Subscribe = () => {
     Subscribe to get information, latest news and other
     interesting offers about Jadoo
                 </h2>
-                <div className="flex flex-col gap-[24px] md:flex-row relative z-10
-                ">
-                    <div className = "absolute before:content-[''] before:absolute
-                    before:w-[21px] before:h-[18px] top-[28px] left-[20px]
-                    before:bg-[url('/Message.png')] before:bg-contain before:bg-no-repeat"></div>
-                    <input type="text" placeholder="Your email" className="bg-white md:w-[420px] w-[250px] py-[25px] pl-[60px] pr-[20px] rounded-2xl focus:outline-none
-                
-                    "/>
+                <div className="flex flex-col gap-[24px] md:flex-row relative z-10">
+                    <div className = "absolute before:content-[''] before:absolute not-even:before:w-[21px] before:h-[18px] top-[28px] left-[20px] before:bg-[url('/Message.png')] before:bg-contain before:bg-no-repeat"></div>
+                    <input type="text" placeholder="Your email" className="bg-white md:w-[420px] w-[250px] py-[25px] pl-[60px] pr-[20px] rounded-2xl focus:outline-none"/>
                     <button className="py-[20px] px-[50px] bg-secondary-150 rounded-3xl text-white text-[17px] font-semibold cursor-pointer">Subscribe</button>
                 </div>
             </div>

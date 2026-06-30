@@ -1,6 +1,6 @@
- import { useEffect, useRef, type RefObject } from "react";
+ import {useRef } from "react";
 import Plane from "../../assets/plane.png";
-import { frame, motion, useSpring } from "framer-motion";
+import { motion } from "framer-motion";
 import { useFollowPointer } from "../../hooks/UseFollowPointer";
 
  export default function Drag() {

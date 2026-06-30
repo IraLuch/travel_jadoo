@@ -1,14 +1,13 @@
 import { motion } from "framer-motion";
 
 type Props = {
-    id: number,
     icon: string, 
     iconBg: string,
     title: string,
     desc:string
 }
 
-const StepItem = ({id, title, desc,icon,iconBg}:Props) => {
+const StepItem = ({ title, desc,icon,iconBg}:Props) => {
     return( <motion.li
       initial={{opacity: 0}}
             whileInView={{opacity: 1}}

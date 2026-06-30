@@ -18,7 +18,7 @@ in 3 easy steps" title="Easy and Fast"></SectionHeader>
                     <ul className="flex flex-col gap-[48px]">
                         {stepsItemData.map(i => (
                             <StepItem  desc={i.desc} icon={i.icon} iconBg={i.iconBg} 
-                            id={i.id} title={i.title} key={i.id}></StepItem>
+                             title={i.title} key={i.id}></StepItem>
                         ))}
                     </ul>
                 </motion.div>
